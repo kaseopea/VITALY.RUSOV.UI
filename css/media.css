@@ -1,0 +1,304 @@
+/* Large Devices, Wide Screens */
+@media screen and (max-width : 1200px) {
+    .header__contents {
+        width: 100%;
+    }
+    .pagetitle__contents {
+        width: 100%;
+    }
+    .footer__contents {
+        width: 100%;
+    }
+
+    .header__title {
+        font-size: 4rem;
+        padding: 3rem 2rem;
+        width: 50%;
+    }
+    .header__addr {
+        padding: 1rem 2rem;
+        line-height: 3rem;
+        width: 50%;
+    }
+    .header__date {
+        font-size: 2rem;
+        font-weight: bold;
+        padding: 3rem 2rem;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media screen and (max-width : 992px) {
+    .header__contents {
+        width: 100%;
+    }
+    .header__title {
+        font-size: 4rem;
+        padding: 3rem 2rem;
+        width: 50%;
+    }
+    .header__addr {
+        padding: 1rem 2rem;
+        line-height: 3rem;
+        width: 50%;
+    }
+    .header__date {
+        font-size: 2rem;
+        font-weight: bold;
+        padding: 3rem 2rem;
+    }
+
+    .pagetitle__contents {
+        width: 100%;
+    }
+
+    .content__contents {
+        padding: 4rem 2rem;
+    }
+
+    .regform__label {
+        text-align: left;
+        display: block;
+        padding: 0;
+        float: none;
+        width: 100%;
+    }
+    .regform__input, .regform__select {
+        float: none;
+        width: 100%;
+    }
+
+
+    .footer__contents {
+        width: 100%;
+    }
+    .footer__copyright {
+        padding-left: 2rem;
+    }
+}
+
+/* Small Devices, Tablets */
+@media screen and (max-width : 768px) {
+    .header__contents {
+        width: 100%;
+    }
+    .header__title {
+        font-size: 4rem;
+        padding: 3rem 2rem;
+        width: 50%;
+    }
+    .header__addr {
+        padding: 1rem 2rem;
+        line-height: 3rem;
+        width: 50%;
+    }
+    .header__date {
+        font-size: 2rem;
+        font-weight: bold;
+        padding: 3rem 2rem;
+    }
+
+    .pagetitle__contents {
+        width: 100%;
+    }
+    .pagetitle__title {
+        padding: 2.5rem 2rem;
+    }
+
+    .content__contents {
+        padding: 4rem 2rem;
+    }
+
+    .regform__label {
+        text-align: left;
+        display: block;
+        padding: 0;
+        float: none;
+        width: 100%;
+    }
+    .regform__input, .regform__select {
+        float: none;
+        width: 100%;
+    }
+
+
+    .footer__contents {
+        width: 100%;
+    }
+    .footer__copyright {
+        padding-left: 2rem;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media screen and (max-width : 480px) {
+    .header {
+        text-align: center;
+    }
+    .header__contents {
+        background: transparent;
+        width: 100%;
+    }
+    .header__title {
+        font-size: 4rem;
+        padding: 3rem 2rem;
+    }
+    .header__addr {
+        padding: 1rem 2rem;
+        line-height: 3rem;
+    }
+    .header__date {
+        font-size: 2rem;
+        font-weight: bold;
+        padding: 2rem 2rem;
+    }
+    .pagetitle__contents {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+    .content {
+        width: 100%;
+    }
+    .content__contents {
+        padding: 4rem 2rem;
+    }
+    .regform__row {
+        margin: 1.6rem 0 3.2rem 0;
+    }
+    .regform__row .regform__col:first-child {
+        margin-bottom: 3.2rem;
+    }
+    .regform__row .regform__col:first-child, .regform__row .regform__col:last-child {
+        float: none;
+        width: 100%;
+    }
+    .regform__label {
+        text-align: center;
+        display: block;
+        padding: 0;
+        float: none;
+        width: 100%;
+    }
+    .regform__input, .regform__select {
+        float: none;
+        width: 100%;
+    }
+    .regform__action {
+        text-align: center;
+    }
+
+    .regform__submit {
+        display: block;
+        width: 100%;
+    }
+
+    .footer {
+        height: auto;
+    }
+    .footer__contents {
+        width: 100%;
+    }
+    .footer__copyright, .footer__links {
+        float: none;
+        text-align: center;
+    }
+    .footer__links ul {
+        text-align: center;
+    }
+    .footer__links ul li {
+        display: inline-block;
+        float: none;
+    }
+    .footer__links ul li a {
+        margin: 0 4rem;
+    }
+
+}
+
+/* Custom, iPhone Retina */
+@media screen and (max-width : 320px) {
+    .header {
+        text-align: center;
+    }
+    .header__contents {
+        background: transparent;
+        width: 100%;
+    }
+    .header__title {
+        font-size: 4rem;
+        padding: 3rem 2rem;
+    }
+    .header__addr {
+        padding: 1rem 2rem;
+        line-height: 3rem;
+    }
+    .header__date {
+        font-size: 2rem;
+        font-weight: bold;
+        padding: 2rem 2rem;
+    }
+    .pagetitle__contents {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+    .content {
+        width: 100%;
+    }
+    .content__contents {
+        padding: 4rem 2rem;
+    }
+    .regform__row {
+        margin: 1.6rem 0 3.2rem 0;
+    }
+    .regform__row .regform__col:first-child {
+        margin-bottom: 3.2rem;
+    }
+    .regform__row .regform__col:first-child, .regform__row .regform__col:last-child {
+        float: none;
+        width: 100%;
+    }
+    .regform__label {
+        text-align: center;
+        display: block;
+        padding: 0;
+        float: none;
+        width: 100%;
+    }
+    .regform__input, .regform__select {
+        float: none;
+        width: 100%;
+    }
+    .regform__action {
+        text-align: center;
+    }
+
+    .regform__submit {
+        display: block;
+        width: 100%;
+    }
+
+    .footer {
+        display: block;
+        height: auto;
+    }
+    .footer__contents {
+        width: 100%;
+
+    }
+    .footer__copyright, .footer__links {
+        float: none;
+        text-align: center;
+    }
+    .footer__links ul {
+        text-align: center;
+    }
+    .footer__links ul li {
+        display: inline-block;
+        float: none;
+    }
+    .footer__links ul li a {
+        margin: 0 4rem;
+    }
+}

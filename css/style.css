@@ -1,0 +1,241 @@
+@import 'reset.css';
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #e3f1f9;
+    font-family: "Helvetica", "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    font-size: 1.4rem ;
+}
+
+/* Fix for sticky footer */
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -64px;
+}
+.wrapper:after {
+    content: "";
+    display: block;
+}
+.wrapper:after {
+    height: 142px;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*------------------------------ Typography --------------------------------------------------------------- */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Helvetica", "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+}
+h1 {
+
+}
+h2 {
+
+}
+h3 {
+
+}
+h4 {
+
+}
+h5 {
+
+}
+h6 {
+
+}
+em {
+    font-style: italic;
+}
+/*------------------------------ Header Styles --------------------------------------------------------------- */
+.header {
+    background-color: #111a29;
+}
+.header__contents {
+    display: table;
+    width: 1300px;
+    height: 242px;
+    margin: 0 auto;
+    background: url('../images/header-bg.jpg') no-repeat right center;
+    background-size: contain;
+}
+.header__logo {
+    display: table-cell;
+    vertical-align: middle;
+}
+.header__title {
+    font-size: 5rem;
+    text-transform: capitalize;
+    font-weight: normal;
+    color: #fff;
+    padding: 1rem 0;
+}
+.header__addr {
+    color: rgba(255,255,255, 0.8);
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding: 0.7rem 0;
+}
+.header__date {
+    color: #fff;
+    font-size: 3.6rem;
+    padding: 0.7rem 0;
+}
+/*------------------------------ Pagetitle Styles --------------------------------------------------------------- */
+.pagetitle {
+    background-color: #bfd4de;
+}
+.pagetitle__contents {
+    width: 1300px;
+    margin: 0 auto;
+}
+.pagetitle__title {
+    padding: 2.5rem 2rem;
+
+    font-family: "Helvetica", "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: #364654;
+}
+/*------------------------------ Content Styles --------------------------------------------------------------- */
+.content {
+    background-color: #fff;
+    max-width: 1300px;
+    margin: 0 auto;
+
+}
+.content__contents {
+    padding: 4rem 5rem;
+}
+.note {
+    font-size: 2.1rem;
+    font-style: italic;
+    color: #364654;
+    padding: 1rem 0;
+}
+
+/*------------------------------ Form Styles --------------------------------------------------------------- */
+.regform {
+    margin: 3rem 0;
+}
+.regform__row {
+    margin: 1.6rem 0 3.2rem 0;
+    width: 100%;
+}
+.regform__row:before, .regform__row:after {
+    content: '';
+    display: table;
+}
+.regform__row:after {
+    clear: both;
+}
+.regform__row .regform__col:first-child {
+    width: 48%;
+    margin-right: 4%;
+    float: left;
+}
+.regform__row .regform__col:last-child {
+    width: 48%;
+    float: right;
+}
+
+.regform__label {
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 5rem;
+    text-align: right;
+    color: #364654;
+
+    padding-right: 2.8rem;
+    box-sizing: border-box;
+
+    float: left;
+    width: 40%;
+}
+.regform__label.required:after {
+    content: '*';
+    color: #0099ff;
+}
+
+.regform__input, .regform__select {
+    font-family: "Helvetica", "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+    font-size: 1.9rem;
+    font-weight: normal;
+    color: #555;
+    border: 1px solid #ccc;
+    -webkit-box-shadow:inset 1px 4px 9px -6px;
+    box-shadow: inset 1px 4px 6px -6px;
+    background: #fff;
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 1.2rem 0.5rem;
+
+    width: 60%;
+    float: right;
+}
+
+.regform__action {
+    clear: both;
+    margin-top: 4.4rem;
+}
+.regform__submit {
+    padding: 1.4rem 2.6rem;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #364654;
+
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+}
+.regform__submit:hover {
+    background-color: #485b6c;
+}
+
+/*------------------------------ Footer Styles --------------------------------------------------------------- */
+.footer {
+    background-color: #364654;
+    height: 64px;
+    line-height: 64px;
+}
+.footer__contents {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.footer__copyright {
+    color: rgba(255,255,255, 0.8);
+    font-size: 1.7rem;
+    float: left;
+}
+.footer__links {
+    float: right;
+}
+.footer__links ul li {
+    float: left;
+}
+.footer__links ul li a {
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: rgba(255,255,255, 0.9);
+    margin: 0 1.4rem;
+}

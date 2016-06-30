@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Registration - Step 2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <script type= "text/javascript" src = "js/countries.js"></script>
+</head>
+<body>
+<div class="wrapper">
+    <header id="header" class="header">
+        <div class="header__contents">
+            <div class="header__logo">
+                <h2 class="header__title">Welcome to Meeting Expo 2014</h2>
+                <p class="header__addr">Suite 5A-1204, 799 E Dragram, Tucson AZ 85705, USA</p>
+                <p class="header__date">May 15, 2014 - May 21, 2014</p>
+            </div>
+        </div>
+    </header>
+
+    <div class="pagetitle">
+        <div class="pagetitle__contents">
+            <h3 class="pagetitle__title">Registration step 2 of 3</h3>
+        </div>
+    </div>
+
+    <section class="content">
+        <div class="content__contents">
+
+        <p class="note">This is the address where registration materials will be sent and the name that will appear on your badge.</p>
+
+        <div class="regform">
+
+            <form action="#" class="regform__form">
+                <div class="clearfix">
+                    <!-- Row 1 -->
+                    <div class="regform__row">
+                        <div class="regform__col ">
+                            <label for="firstname" class="regform__label required">First name</label>
+                            <input type="text" class="regform__input" id="firstname" name="firstname" required="required" autofocus="autofocus">
+                        </div>
+                        <div class="regform__col">
+                            <label for="lastname" class="regform__label required">Last name</label>
+                            <input type="text" id="lastname" name="lastname" class="regform__input" required="required">
+                        </div>
+                    </div>
+
+                    <!-- Row 2 -->
+                    <div class="regform__row">
+                        <div class="regform__col">
+                            <label for="mailing_addr_1" class="regform__label required">Mailing Address 1</label>
+                            <input type="text" name="mailing_addr_1" id="mailing_addr_1" class="regform__input" required="required">
+                        </div>
+                        <div class="regform__col">
+                            <label for="mailing_addr_2" class="regform__label">Mailing Address 2</label>
+                            <input type="text" name="mailing_addr_2" id="mailing_addr_2" class="regform__input" required="required">
+                        </div>
+                    </div>
+
+                    <!-- Row 3 -->
+                    <div class="regform__row">
+                        <div class="regform__col">
+                            <label for="city" class="regform__label required">City</label>
+                            <input type="text" class="regform__input" name="city" id="city" required="required">
+                        </div>
+                        <div class="regform__col">
+                            <label for="states" class="regform__label required">State</label>
+                            <select name="states" id="states" class="regform__select">
+                                <option value="AL">Alabama</option>
+                                <option value="AK">Alaska</option>
+                                <option value="AZ">Arizona</option>
+                                <option value="AR">Arkansas</option>
+                                <option value="CA">California</option>
+                                <option value="CO">Colorado</option>
+                                <option value="CT">Connecticut</option>
+                                <option value="DE">Delaware</option>
+                                <option value="DC">District Of Columbia</option>
+                                <option value="FL">Florida</option>
+                                <option value="GA">Georgia</option>
+                                <option value="HI">Hawaii</option>
+                                <option value="ID">Idaho</option>
+                                <option value="IL">Illinois</option>
+                                <option value="IN">Indiana</option>
+                                <option value="IA">Iowa</option>
+                                <option value="KS">Kansas</option>
+                                <option value="KY">Kentucky</option>
+                                <option value="LA">Louisiana</option>
+                                <option value="ME">Maine</option>
+                                <option value="MD">Maryland</option>
+                                <option value="MA">Massachusetts</option>
+                                <option value="MI">Michigan</option>
+                                <option value="MN">Minnesota</option>
+                                <option value="MS">Mississippi</option>
+                                <option value="MO">Missouri</option>
+                                <option value="MT">Montana</option>
+                                <option value="NE">Nebraska</option>
+                                <option value="NV">Nevada</option>
+                                <option value="NH">New Hampshire</option>
+                                <option value="NJ">New Jersey</option>
+                                <option value="NM">New Mexico</option>
+                                <option value="NY">New York</option>
+                                <option value="NC">North Carolina</option>
+                                <option value="ND">North Dakota</option>
+                                <option value="OH">Ohio</option>
+                                <option value="OK">Oklahoma</option>
+                                <option value="OR">Oregon</option>
+                                <option value="PA">Pennsylvania</option>
+                                <option value="RI">Rhode Island</option>
+                                <option value="SC">South Carolina</option>
+                                <option value="SD">South Dakota</option>
+                                <option value="TN">Tennessee</option>
+                                <option value="TX">Texas</option>
+                                <option value="UT">Utah</option>
+                                <option value="VT">Vermont</option>
+                                <option value="VA">Virginia</option>
+                                <option value="WA">Washington</option>
+                                <option value="WV">West Virginia</option>
+                                <option value="WI">Wisconsin</option>
+                                <option value="WY">Wyoming</option>
+                            </select>
+
+                        </div>
+                    </div>
+
+                    <!-- Row 4 -->
+                    <div class="regform__row">
+                        <div class="regform__col">
+                            <label for="postalcode" class="regform__label required">Postal Code</label>
+                            <input type="text" name="postalcode" id="postalcode" class="regform__input" required="required">
+                        </div>
+                        <div class="regform__col">
+                            <label for="country" class="regform__label required">Country</label>
+                            <select id="country" name ="country" class="regform__select" required="required"></select>
+                            <script language="javascript">populateCountries("country");</script>
+                        </div>
+                    </div>
+
+                    <!-- Row 5 -->
+                    <div class="regform__row">
+                        <div class="regform__col">
+                            <label for="workphone" class="regform__label required">Work Phone</label>
+                            <input type="text" name="workphone" id="workphone" class="regform__input" required="required">
+                        </div>
+                        <div class="regform__col">
+                            <label for="fax" class="regform__label">Fax</label>
+                            <input type="text" name="fax" id="fax" class="regform__input">
+                        </div>
+                    </div>
+
+                    <!-- Row 6 -->
+                    <div class="regform__row">
+                        <div class="regform__col">
+                            <label for="email" class="regform__label required">Email</label>
+                            <input type="text" name="email" id="email" class="regform__input" required="required">
+                        </div>
+                        <div class="regform__col">
+                            <label for="title" class="regform__label">Title</label>
+                            <input type="text" class="regform__input" name="title" id="title">
+                        </div>
+                    </div>
+
+                    <!-- Row 7 -->
+                    <div class="regform__row">
+                        <div class="regform__col">
+                            <label for="department" class="regform__label">Department</label>
+                            <input type="text" name="department" id="department" class="regform__input">
+                        </div>
+                        <div class="regform__col">
+                            <label class="regform__label">Company</label>
+                            <input type="text" name="company" id="company" class="regform__input">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="regform__action">
+                    <input type="submit" class="regform__submit" value="Next step">
+                </div>
+
+            </form>
+
+        </div></div>
+    </section>
+</div>
+<footer id="footer" class="footer ">
+    <div class="footer__contents clearfix">
+        <div class="footer__copyright">
+            Copyright &copy; 1997 - 2013 Site.com
+        </div>
+        <div class="footer__links">
+            <ul>
+                <li><a href="#">Policies</a></li>
+                <li><a href="#">Site Map</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+<script type= "text/javascript" src = "js/form.js"></script>
+
+</body>
+</html>
