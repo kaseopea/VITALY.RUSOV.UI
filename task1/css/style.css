@@ -11,6 +11,7 @@ body {
     background-color: #e3f1f9;
     font-family: "Helvetica", "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
     font-weight: 300;
+    min-width: 320px;
 }
 
 /* Fix for sticky footer */
@@ -116,7 +117,7 @@ em {
 
 /*------------------------------ Form Styles --------------------------------------------------------------- */
 .regform {
-    ma rgin: 3rem 0;
+    margin: 3rem 0;
 }
 .regform__row {
     margin: 1.6rem 0 3.2rem 0;

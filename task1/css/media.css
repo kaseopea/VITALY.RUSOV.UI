@@ -25,6 +25,11 @@
         font-weight: bold;
         padding: 3rem 2rem;
     }
+    .regform__label {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
 }
 
 /* Medium Devices, Desktops */
