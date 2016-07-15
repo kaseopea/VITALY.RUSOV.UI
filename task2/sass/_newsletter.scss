@@ -1,0 +1,116 @@
+.newsletter {
+    background-color: $primary-dark-color;
+    margin: 6rem 0 7.5rem 0;
+
+    &__row {
+        display: table;
+        width: 100%;
+        padding: 1.8rem 0;
+    }
+    &__col {
+        display: table-cell;
+        vertical-align: middle;
+        width: 33.3%;
+    }
+
+    &__title {
+        font-size: 2.1rem;
+        padding: .6rem 0;
+        color: #fff;
+    }
+
+}
+
+.newsletter-form {
+    position: relative;
+    &__input {
+        padding: .9rem 11.5rem .9rem 1rem;
+        border: 0;
+        font-family: $primary-font;
+        font-size: 1.5rem;
+        width: 100%;
+
+        &::-webkit-input-placeholder {
+            color: $primary-dark-color;
+        }
+        &::-moz-placeholder {
+            color: $primary-dark-color;
+        }
+        &:-moz-placeholder {
+            color: $primary-dark-color;
+        }
+        &:-ms-input-placeholder {
+            color: $primary-dark-color;
+        }
+
+        &:focus::-webkit-input-placeholder {
+            color: transparent
+        }
+        &:focus::-moz-placeholder {
+            color: transparent
+        }
+        &:focus:-moz-placeholder {
+            color: transparent
+        }
+        &:focus:-ms-input-placeholder {
+            color: transparent
+        }
+
+    }
+    &__submit {
+        box-sizing: border-box;
+        background-color: #f19200;
+        border: 0;
+        color: #fff;
+        font-size: 1.8rem;
+        font-weight: bold;
+        padding: .75rem 2rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+    }
+
+}
+
+.socials {
+    text-align: center;
+
+    .social {
+        width: 45px;
+        height: 35px;
+        display: inline-block;
+        text-indent: -99rem;
+        overflow: hidden;
+        background: url("../images/socials.png") no-repeat 45px 35px;
+
+        &.gplus {
+            background-position: 0 0;
+            &:hover {
+                background-position: 0 -35px;
+            }
+        }
+        &.pinterest {
+            background-position: -45px 0;
+            &:hover {
+                background-position: -45px -35px;
+            }
+        }
+        &.twitter {
+            background-position: -90px 0;
+            &:hover {
+                background-position: -90px -35px;
+            }
+        }
+        &.facebook {
+            background-position: -135px 0;
+            &:hover {
+                background-position: -135px -35px;
+            }
+        }
+    }
+
+    a {
+        color: #fff;
+    }
+}

@@ -1,0 +1,56 @@
+.topline {
+    background-color: #f6f6f6;
+
+    .container {
+        height: 4.8rem;
+        display: table;
+        width: 100%;
+    }
+    & &__reviews {
+        line-height: 1.8rem;
+        display: table-cell;
+        vertical-align: middle;
+
+        .description {
+            font-size: 1.3rem;
+        }
+    }
+    & &__auth {
+        text-align: right;
+        display: table-cell;
+        vertical-align: middle;
+
+        ul {
+            li {
+                float: right;
+                margin-left: 2rem;
+
+                a {
+                    display: table-cell;
+                    vertical-align: middle;
+                    padding: 1rem;
+                    color: #333333;
+                    text-decoration: none;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.rating-stars {
+    display: inline-block;
+    width: 50px;
+    height: 10px;
+    background: url("../images/stars-sprite.png") no-repeat;
+
+    .rating-value {
+        display: block;
+        height: 10px;
+        background: url("../images/stars-sprite.png") no-repeat;
+        background-position: left -12px;
+    }
+}

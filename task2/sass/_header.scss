@@ -1,0 +1,134 @@
+/* ---------------------------------------- Header Module ---------------------------------------- */
+.header {
+    background-color: #fff;
+
+    .row {
+        padding-top: 2.4rem;
+        padding-bottom: 4.8rem;
+    }
+
+
+    & &__row {
+        display: table;
+        margin: 2.5rem 0;
+        width: 100%;
+    }
+    & &__col {
+        display: table-cell;
+        vertical-align: middle;
+        &.logo {
+            width: 25%;
+        }
+        &.info {
+            padding: 0 4.5rem;
+            width: 50%;
+        }
+        &.modules {
+            width: 22rem;
+            width: 25%;
+        }
+    }
+}
+/* ---------------------------------------- Call Us Module ---------------------------------------- */
+.callus {
+    line-height: 2.8rem;
+
+    & &__title {
+        font-size: 1.9rem;
+        font-weight: bold;
+    }
+    & &__phone {
+        font-size: 2.1rem;
+        color: #dc5047;
+
+        span {
+            white-space: nowrap;
+        }
+    }
+    & &__time {
+        font-size: 1.4rem;
+    }
+}
+
+/* ---------------------------------------- Cart Module ---------------------------------------- */
+.cart {
+    background-color: $primary-dark-color;
+    font-size: 1.6rem;
+    color: #ffffff;
+    padding: 1.2rem 0.7rem;
+    margin-bottom: 2.4rem;
+
+    &--icon {
+        background: $primary-dark-color url("../images/shopping-cart.png") no-repeat 0.7rem 1.3rem;
+        padding-left: 3rem;
+    }
+
+    a {
+        color: #fff;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    &__title {
+        font-size: 1.8rem;
+    }
+}
+
+/* ---------------------------------------- Search Module ---------------------------------------- */
+.search {
+
+    & &__form {
+        position: relative;
+    }
+
+    & &__input {
+        border: 1px solid $primary-dark-color;
+        box-sizing: border-box;
+        font-family: $primary-font;
+        font-size: 1.6rem;
+        width: 100%;
+        padding: .4rem 3rem .4rem 1rem;
+
+        &::-webkit-input-placeholder {
+            color: $primary-dark-color;
+        }
+        &::-moz-placeholder {
+            color: $primary-dark-color;
+        }
+        &:-moz-placeholder {
+            color: $primary-dark-color;
+        }
+        &:-ms-input-placeholder {
+            color: $primary-dark-color;
+        }
+
+        &:focus::-webkit-input-placeholder {
+            color: transparent
+        }
+        &:focus::-moz-placeholder {
+            color: transparent
+        }
+        &:focus:-moz-placeholder {
+            color: transparent
+        }
+        &:focus:-ms-input-placeholder {
+            color: transparent
+        }
+    }
+
+    & &__submit {
+        position: absolute;
+        top: 0;
+        right: .8rem;
+        width: 1.7rem;
+        height: 100%;
+        background: transparent url("../images/search-icon.png") no-repeat center center;
+        border: 0;
+        text-indent: -10rem;
+        outline: none;
+        cursor: pointer;
+    }
+
+}

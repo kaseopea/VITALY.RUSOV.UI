@@ -1,0 +1,62 @@
+/* ---------------------------------------- Footer Module ---------------------------------------- */
+.footer {
+    padding-bottom: 4.8rem;
+
+    a {
+        color: $primary-dark-color;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    & &__title {
+        @extend .h2title;
+        font-size: 2.1rem;
+        margin-bottom: 2rem;
+    }
+
+    .links1 {
+        padding-left: 4.5rem;
+    }
+    .links2 {
+        padding-left: 2.3rem;
+    }
+
+    .nav {
+
+        li {
+
+            a {
+                display: inline-block;
+                padding: 0.5rem;
+                font-size: 1.4rem;
+            }
+        }
+    }
+
+    .copyright {
+        text-align: justify;
+
+        &__description {
+            text-align: justify;
+            font-weight: bold;
+            line-height: 1.9rem;
+            font-size: 1.3rem;
+            margin: 2rem 0;
+        }
+    }
+
+    .address {
+        font-size: 1.4rem;
+
+        address {
+            line-height: 2.2rem;
+        }
+
+        p {
+            line-height: 2.2rem;
+        }
+    }
+
+}

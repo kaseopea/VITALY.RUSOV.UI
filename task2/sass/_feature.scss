@@ -1,0 +1,46 @@
+.features {
+    margin: 4.5rem 0;
+
+    & &__title {
+        @extend .h2title;
+        margin-bottom: 3rem;
+    }
+    & &__subtitle {
+        font-size: 2.1rem;
+        margin-bottom: 2rem;
+
+        .icon {
+            width: 4.8rem;
+            height: 4.8rem;
+            display: inline-block;
+            border-radius: 100%;
+            background: #505050 url("../images/features-icons.png") no-repeat -4.8rem -4.8rem;
+            vertical-align: middle;
+            position: relative;
+            top: -0.3rem;
+            margin-right: 0.5rem;
+
+            &.icon-hq {
+                background-position: 0 0;
+            }
+            &.icon-ship {
+                background-position: -48px 0;
+            }
+            &.icon-secure {
+                background-position: -96px 0;
+            }
+        }
+
+        span {
+            overflow: hidden;
+        }
+    }
+
+    & &__description {
+        text-align: justify;
+        line-height: 2.2rem;
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+}
